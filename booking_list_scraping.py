@@ -3,7 +3,7 @@ from utils import visit_booking_homepage, scroll_and_load_all_results, search_bo
 
 import json
 
-def booking_list_scraping(stars, USER_AGENTS:dict, city_name: str = "", output_file: str = "booking_page.html"):
+def booking_list_scraping(stars, USER_AGENTS:dict, city_name: str = ""):
     """
     Orchestrates the Booking.com scraping process. It initializes the browser and page, performs
     a search for the specified city, continuously loads more results, and saves the final HTML to a file.
