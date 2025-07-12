@@ -1,0 +1,6 @@
+from utils.visit_booking_homepage import visit_booking_homepage
+from utils.dismiss_login_popup import dismiss_login_popup
+from utils.search_booking_homepage import search_booking_homepage
+from utils.scroll_and_load_all_results import scroll_and_load_all_results
+from utils.filter_stars import filter_stars
+from utils.collect_hotel import collect_hotel
